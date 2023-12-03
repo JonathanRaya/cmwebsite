@@ -1,0 +1,14 @@
+.full-page {
+    border:solid;
+    border-color: black;
+    height: 50rem;
+}
+.intro {
+    text-align: center;
+    border:solid;
+    border-color: red;
+    max-width: fit-content;
+}
+.about-me {
+    max-width: 100%;
+}
