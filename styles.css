@@ -1,14 +1,41 @@
 .full-page {
     border:solid;
     border-color: black;
-    height: 50rem;
+    height: 70rem;
 }
 .intro {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     border:solid;
     border-color: red;
-    max-width: fit-content;
+    max-width: 100vw;
+    height: 20rem;
 }
+.name{
+    padding-top: 8rem;
+    text-align: center;
+    font-size: large;
+    border:solid;
+    border-color:blue;
+    height: 10rem;
+}
+.picture{
+    padding-top: 2rem;
+    width:40vw;
+    height: 5vh;
+}
+.headshot{
+    width: 100%;
+    height:auto;
+    border:solid;
+    border-color: yellow;
+}   
 .about-me {
-    max-width: 100%;
+    border:solid;
+    max-width: 100vw;
+}
+.projects-heading{
+    text-align: center;
+    border:solid;border-color: purple;
+    max-width: 100vw;
 }
